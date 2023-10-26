@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "question": {
+        "type": "string"
+      },
+      "response": {
+        "type": "boolean"
+      },
+      "originalResponseDate": {
+        "type": ["string", "null"],
+        "format": "date-time"
+      },
+      "latestResponseDate": {
+        "type": ["string", "null"],
+        "format": "date-time"
+      },
+      "summarizedQuestion": {
+        "type": "string"
+      },
+      "additionalDetails": {
+        "type": "object",
+        "properties": {
+          "base64EncodedDocument": {
+            "type": ["string", "null"],
+            "format": "base64"
+          },
+          "documentLink": {
+            "type": ["string", "null"],
+            "format": "uri"
+          },
+          "createdDate": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          },
+          "updatedDate": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "base64EncodedDocument",
+          "documentLink",
+          "createdDate",
+          "updatedDate"
+        ]
+      }
+    },
+    "required": [
+      "question",
+      "response",
+      "originalResponseDate",
+      "latestResponseDate",
+      "summarizedQuestion",
+      "additionalDetails"
+    ]
+  }
+}
