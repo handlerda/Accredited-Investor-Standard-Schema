@@ -37,6 +37,25 @@ The presented table provides a concise summary of the criteria that define an "a
 | 13                  | Is the individual a knowledgeable employee of a private fund issuer? | Is the individual a knowledgeable employee, as defined in rule 3c-5(a)(4) under the Investment Company Act, of the issuer of securities where that issuer is a 3(c)(1) or 3(c)(7) private fund?                                                                                                                                                               |
 | 14                  | Is it a qualified family office?                                     | Is it a family office and its family clients if the family office has assets under management in excess of $5 million and whose prospective investments are directed by a person who has such knowledge and experience in financial and business matters that such family office is capable of evaluating the merits and risks of the prospective investment? |
 
-## Additional Details
+## Sample JSON object
 
-Each criterion can also contain additional details such as associated documents, document links, and timestamps for when the criteria were created or updated.
+We suggest going the the /schema section to review the entire sample json format in addition to its corisponding schema. A sample json object is below for reference:
+
+```json
+{
+  "question": "Is the individual a knowledgeable employee, as defined in rule 3c-5(a)(4) under the Investment Company Act, of the issuer of securities where that issuer is a 3(c)(1) or 3(c)(7) private fund?",
+  "response": true,
+  "originalResponseDate": null,
+  "latestResponseDate": null,
+  "summarizedQuestion": "Is the individual a knowledgeable employee of a private fund issuer?",
+  "additionalDetails": {
+    "base64EncodedDocument": null,
+    "documentLink": null,
+    "createdDate": null,
+    "updatedDate": null,
+    "freeText": "relevant free text \n should be used to indicate a new line "
+  }
+}
+```
+
+**Note on Complexity and Additional Details**: The provided JSON structure can capture intricate details regarding the qualifications of an individual in the context of § 230.501. Given the complexity of such determinations, the "additionalDetails" section is crucial. It offers the capability to embed further related information. For instance, the "base64EncodedDocument" can be used to store encoded versions of relevant documents, while "documentLink" can point to a specific location in a document repository system. This ensures that all pertinent data, including primary documents or references, can be accessed or stored within a single, organized structure. Given the complexity of these questions supporting context and documents are nearly always required.

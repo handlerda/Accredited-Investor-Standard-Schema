@@ -32,6 +32,10 @@
             "type": ["string", "null"],
             "format": "uri"
           },
+          "freeText": {
+            "type": ["string", "null"],
+            "format": "string"
+          },
           "createdDate": {
             "type": ["string", "null"],
             "format": "date-time"
