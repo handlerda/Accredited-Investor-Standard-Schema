@@ -40,13 +40,7 @@
             "type": ["string", "null"],
             "format": "date-time"
           }
-        },
-        "required": [
-          "base64EncodedDocument",
-          "documentLink",
-          "createdDate",
-          "updatedDate"
-        ]
+        }
       }
     },
     "required": [
@@ -54,8 +48,7 @@
       "response",
       "originalResponseDate",
       "latestResponseDate",
-      "summarizedQuestion",
-      "additionalDetails"
+      "summarizedQuestion"
     ]
   }
 }
