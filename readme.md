@@ -51,9 +51,9 @@ We suggest going the the /schema section to review the entire sample json format
   "additionalDetails": {
     "base64EncodedDocument": null,
     "documentLink": null,
+    "freeText": "relevant free text \n should be used to indicate a new line",
     "createdDate": null,
-    "updatedDate": null,
-    "freeText": "relevant free text \n should be used to indicate a new line "
+    "updatedDate": null
   }
 }
 ```
