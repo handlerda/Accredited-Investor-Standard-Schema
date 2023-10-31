@@ -6,8 +6,19 @@
     "latestResponseDateTime": "2022-01-02T14:00:00Z",
     "summarizedQuestion": "Is it a financial institution?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kZWREb2N1bWVudA=="],
-      "documentLink": ["https://example.com/document1"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUJhc2U2NEVuY29kZWREb2N1bWVudA=="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document1",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-01T12:00:00Z",
       "updatedDateTime": "2022-01-02T14:00:00Z"
@@ -20,8 +31,19 @@
     "latestResponseDateTime": "2022-01-03T14:00:00Z",
     "summarizedQuestion": "Is it a registered financial adviser?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZU90aGVyQmFzZTY0RW5jb2RlZA=="],
-      "documentLink": ["https://example.com/document2"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZU90aGVyQmFzZTY0RW5jb2RlZA=="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document2",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-02T12:00:00Z",
       "updatedDateTime": "2022-01-03T14:00:00Z"
@@ -34,8 +56,19 @@
     "latestResponseDateTime": "2022-01-04T14:00:00Z",
     "summarizedQuestion": "Is it a state employee benefit plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZURpZmZlcmVudEJhc2U2NA=="],
-      "documentLink": ["https://example.com/document3"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZURpZmZlcmVudEJhc2U2NA=="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document3",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-03T12:00:00Z",
       "updatedDateTime": "2022-01-04T14:00:00Z"
@@ -48,8 +81,19 @@
     "latestResponseDateTime": "2022-01-05T14:00:00Z",
     "summarizedQuestion": "Is it an ERISA plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kZWQ="],
-      "documentLink": ["https://example.com/document4"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUJhc2U2NEVuY29kZWQ="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document4",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-04T12:00:00Z",
       "updatedDateTime": "2022-01-05T14:00:00Z"
@@ -62,8 +106,19 @@
     "latestResponseDateTime": "2022-01-06T14:00:00Z",
     "summarizedQuestion": "Is it a large tax-exempt organization or corporation?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kaW5n"],
-      "documentLink": ["https://example.com/document5"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUJhc2U2NEVuY29kaW5n"
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document5",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-05T12:00:00Z",
       "updatedDateTime": "2022-01-06T14:00:00Z"
@@ -76,8 +131,19 @@
     "latestResponseDateTime": "2022-01-07T14:00:00Z",
     "summarizedQuestion": "Is the individual an officer or director of the selling company?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUVuY29kZWRBc1RleHQ="],
-      "documentLink": ["https://example.com/document6"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUVuY29kZWRBc1RleHQ="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document6",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-06T12:00:00Z",
       "updatedDateTime": "2022-01-07T14:00:00Z"
@@ -90,8 +156,19 @@
     "latestResponseDateTime": "2022-01-08T14:00:00Z",
     "summarizedQuestion": "Are all equity owners accredited investors?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUVuY29kZWRJbmZv"],
-      "documentLink": ["https://example.com/document7"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUVuY29kZWRJbmZv"
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document7",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-07T12:00:00Z",
       "updatedDateTime": "2022-01-08T14:00:00Z"
@@ -104,8 +181,19 @@
     "latestResponseDateTime": "2022-01-09T14:00:00Z",
     "summarizedQuestion": "Is the individual's net worth over $1 million?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUJhc2U2NE5vdGVz"],
-      "documentLink": ["https://example.com/document8"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUJhc2U2NE5vdGVz"
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document8",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-08T12:00:00Z",
       "updatedDateTime": "2022-01-09T14:00:00Z"
@@ -118,8 +206,19 @@
     "latestResponseDateTime": "2022-01-10T14:00:00Z",
     "summarizedQuestion": "Does the individual have high income?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUFkZGl0aW9uYWxJbmZv"],
-      "documentLink": ["https://example.com/document9"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUFkZGl0aW9uYWxJbmZv"
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document9",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-09T12:00:00Z",
       "updatedDateTime": "2022-01-10T14:00:00Z"
@@ -132,8 +231,19 @@
     "latestResponseDateTime": "2022-01-11T14:00:00Z",
     "summarizedQuestion": "Is it a knowledgeable trust with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUV4cGxhbmF0b3J5Tm90ZXM="],
-      "documentLink": ["https://example.com/document10"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZUV4cGxhbmF0b3J5Tm90ZXM="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document10",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-10T12:00:00Z",
       "updatedDateTime": "2022-01-11T14:00:00Z"
@@ -146,8 +256,19 @@
     "latestResponseDateTime": "2022-01-12T14:00:00Z",
     "summarizedQuestion": "Is it a non-traditional entity with over $5 million in investments?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZURvY3VtZW50YXRpb24="],
-      "documentLink": ["https://example.com/document11"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZURvY3VtZW50YXRpb24="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document11",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
       "createdDateTime": "2022-01-11T12:00:00Z",
       "updatedDateTime": "2022-01-12T14:00:00Z"
@@ -160,11 +281,22 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual licensed in securities?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
-      "documentLink": ["https://example.com/document12"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZURvY3VtZW50YXRpb24="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document12",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
-      "createdDateTime": "2022-01-12T12:00:00Z",
-      "updatedDateTime": "2022-01-13T14:00:00Z"
+      "createdDateTime": "2022-01-11T12:00:00Z",
+      "updatedDateTime": "2022-01-12T14:00:00Z"
     }
   },
   {
@@ -174,11 +306,22 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual a knowledgeable employee of a private fund issuer?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
-      "documentLink": ["https://example.com/document13"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZURvY3VtZW50YXRpb24="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document13",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
-      "createdDateTime": "2022-01-12T12:00:00Z",
-      "updatedDateTime": "2022-01-13T14:00:00Z"
+      "createdDateTime": "2022-01-11T12:00:00Z",
+      "updatedDateTime": "2022-01-12T14:00:00Z"
     }
   },
   {
@@ -188,11 +331,22 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is it a qualified family office?",
     "additionalDetails": {
-      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
-      "documentLink": ["https://example.com/document14"],
+      "base64EncodedDocument": [
+        {
+          "encoding": "base64",
+          "type": "pdf",
+          "value": "U29tZURvY3VtZW50YXRpb24="
+        }
+      ],
+      "documentLink": [
+        {
+          "url": "https://example.com/document14",
+          "type": "pdf"
+        }
+      ],
       "freeText": "Any additional text can be added here. Use a \n for a new line",
-      "createdDateTime": "2022-01-12T12:00:00Z",
-      "updatedDateTime": "2022-01-13T14:00:00Z"
+      "createdDateTime": "2022-01-11T12:00:00Z",
+      "updatedDateTime": "2022-01-12T14:00:00Z"
     }
   }
 ]

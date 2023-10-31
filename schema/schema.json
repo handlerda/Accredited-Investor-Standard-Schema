@@ -25,17 +25,36 @@
         "type": "object",
         "properties": {
           "base64EncodedDocument": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "format": "byte"
-            }
+            "type": "object",
+            "properties": {
+              "encoding": {
+                "type": "string",
+                "enum": ["base64"]
+              },
+              "type": {
+                "type": "string",
+                "enum": ["pdf", "csv"]
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": ["encoding", "type", "value"]
           },
           "documentLink": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uri"
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": ["url", "type"]
             }
           },
           "freeText": {
