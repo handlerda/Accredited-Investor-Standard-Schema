@@ -24,7 +24,7 @@
       "additionalDetails": {
         "type": "object",
         "properties": {
-          "base64EncodedDocument": {
+          "encodedDocument": {
             "type": "object",
             "properties": {
               "encoding": {
