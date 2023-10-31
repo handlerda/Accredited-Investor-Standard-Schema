@@ -39,7 +39,7 @@ The presented table provides a concise summary of the criteria that define an "a
 
 ## Sample JSON object
 
-We suggest going the the /schema section to review the entire sample json format in addition to its corisponding schema. A sample json object is below for reference:
+A sample json object of the schema is shown below. The entire sample json format and its corresponding schema are in the [schema folder of this repo](https://github.com/handlerda/accredited-investor-standard-schema/tree/master/schema)
 
 ```json
 {
