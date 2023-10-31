@@ -49,7 +49,7 @@ A sample json object of the schema is shown below. The entire sample json format
   "latestResponseDateTime": "2022-01-13T14:00:00Z",
   "summarizedQuestion": "Is it a qualified family office?",
   "additionalDetails": {
-    "base64EncodedDocument": [
+    "encodedDocument": [
       {
         "encoding": "base64",
         "type": "pdf",
@@ -74,7 +74,7 @@ The provided JSON structure can capture intricate details about an individual's 
 
 For example:
 
-- `"base64EncodedDocument"` can store encoded versions of pertinent documents.
+- `"encodedDocument"` can store encoded versions of pertinent documents.
 - `"documentLink"` can direct to a specific location within a document repository system.
 
 Both of these elements are arrays of objects, enabling investors to have multiple supporting documents with unique file types. It's essential that the order of the array corresponds with the intended reading sequence of the documents. This approach guarantees that all relevant data, including primary documents or references, is organized and accessible within one comprehensive structure. Due to the intricate nature of these determinations, supporting context and documents are almost always necessary.

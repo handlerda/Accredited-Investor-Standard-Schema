@@ -6,7 +6,7 @@
     "latestResponseDateTime": "2022-01-02T14:00:00Z",
     "summarizedQuestion": "Is it a financial institution?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -31,7 +31,7 @@
     "latestResponseDateTime": "2022-01-03T14:00:00Z",
     "summarizedQuestion": "Is it a registered financial adviser?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -56,7 +56,7 @@
     "latestResponseDateTime": "2022-01-04T14:00:00Z",
     "summarizedQuestion": "Is it a state employee benefit plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -81,7 +81,7 @@
     "latestResponseDateTime": "2022-01-05T14:00:00Z",
     "summarizedQuestion": "Is it an ERISA plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -106,7 +106,7 @@
     "latestResponseDateTime": "2022-01-06T14:00:00Z",
     "summarizedQuestion": "Is it a large tax-exempt organization or corporation?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -131,7 +131,7 @@
     "latestResponseDateTime": "2022-01-07T14:00:00Z",
     "summarizedQuestion": "Is the individual an officer or director of the selling company?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -156,7 +156,7 @@
     "latestResponseDateTime": "2022-01-08T14:00:00Z",
     "summarizedQuestion": "Are all equity owners accredited investors?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -181,7 +181,7 @@
     "latestResponseDateTime": "2022-01-09T14:00:00Z",
     "summarizedQuestion": "Is the individual's net worth over $1 million?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -206,7 +206,7 @@
     "latestResponseDateTime": "2022-01-10T14:00:00Z",
     "summarizedQuestion": "Does the individual have high income?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -231,7 +231,7 @@
     "latestResponseDateTime": "2022-01-11T14:00:00Z",
     "summarizedQuestion": "Is it a knowledgeable trust with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -256,7 +256,7 @@
     "latestResponseDateTime": "2022-01-12T14:00:00Z",
     "summarizedQuestion": "Is it a non-traditional entity with over $5 million in investments?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -281,7 +281,7 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual licensed in securities?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -306,7 +306,7 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual a knowledgeable employee of a private fund issuer?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
@@ -331,7 +331,7 @@
     "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is it a qualified family office?",
     "additionalDetails": {
-      "base64EncodedDocument": [
+      "encodedDocument": [
         {
           "encoding": "base64",
           "type": "pdf",
