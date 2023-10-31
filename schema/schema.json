@@ -10,12 +10,12 @@
       "response": {
         "type": "boolean"
       },
-      "originalResponseDate": {
-        "type": ["string", "null"],
+      "originalResponseDateTime": {
+        "type": "string",
         "format": "date-time"
       },
-      "latestResponseDate": {
-        "type": ["string", "null"],
+      "latestResponseDateTime": {
+        "type": "string",
         "format": "date-time"
       },
       "summarizedQuestion": {
@@ -25,23 +25,28 @@
         "type": "object",
         "properties": {
           "base64EncodedDocument": {
-            "type": ["string", "null"],
-            "format": "base64"
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "byte"
+            }
           },
           "documentLink": {
-            "type": ["string", "null"],
-            "format": "uri"
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
           },
           "freeText": {
-            "type": ["string", "null"],
-            "format": "string"
+            "type": "string"
           },
-          "createdDate": {
-            "type": ["string", "null"],
+          "createdDateTime": {
+            "type": "string",
             "format": "date-time"
           },
-          "updatedDate": {
-            "type": ["string", "null"],
+          "updatedDateTime": {
+            "type": "string",
             "format": "date-time"
           }
         }
@@ -50,8 +55,8 @@
     "required": [
       "question",
       "response",
-      "originalResponseDate",
-      "latestResponseDate",
+      "originalResponseDateTime",
+      "latestResponseDateTime",
       "summarizedQuestion"
     ]
   }

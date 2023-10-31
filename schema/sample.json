@@ -2,197 +2,197 @@
   {
     "question": "Is the entity a bank, savings and loan association, insurance company, registered investment company, business development company, or small business investment company or rural business investment company?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-01T12:00:00Z",
+    "latestResponseDateTime": "2022-01-02T14:00:00Z",
     "summarizedQuestion": "Is it a financial institution?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kZWREb2N1bWVudA=="],
+      "documentLink": ["https://example.com/document1"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-01T12:00:00Z",
+      "updatedDateTime": "2022-01-02T14:00:00Z"
     }
   },
   {
     "question": "Is the entity an SEC-registered broker-dealer, SEC- or state-registered investment adviser, or exempt reporting adviser?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-02T12:00:00Z",
+    "latestResponseDateTime": "2022-01-03T14:00:00Z",
     "summarizedQuestion": "Is it a registered financial adviser?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZU90aGVyQmFzZTY0RW5jb2RlZA=="],
+      "documentLink": ["https://example.com/document2"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-02T12:00:00Z",
+      "updatedDateTime": "2022-01-03T14:00:00Z"
     }
   },
   {
     "question": "Is it a plan established and maintained by a state, its political subdivisions, or any agency or instrumentality of a state or its political subdivisions, for the benefit of its employees, if such plan has total assets in excess of $5 million?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-03T12:00:00Z",
+    "latestResponseDateTime": "2022-01-04T14:00:00Z",
     "summarizedQuestion": "Is it a state employee benefit plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZURpZmZlcmVudEJhc2U2NA=="],
+      "documentLink": ["https://example.com/document3"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-03T12:00:00Z",
+      "updatedDateTime": "2022-01-04T14:00:00Z"
     }
   },
   {
     "question": "Is it an employee benefit plan (within the meaning of the Employee Retirement Income Security Act) if a bank, insurance company, or registered investment adviser makes the investment decisions, or if the plan has total assets in excess of $5 million?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-04T12:00:00Z",
+    "latestResponseDateTime": "2022-01-05T14:00:00Z",
     "summarizedQuestion": "Is it an ERISA plan with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kZWQ="],
+      "documentLink": ["https://example.com/document4"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-04T12:00:00Z",
+      "updatedDateTime": "2022-01-05T14:00:00Z"
     }
   },
   {
     "question": "Is it a tax-exempt charitable organization, corporation, limited liability corporation, or partnership with assets in excess of $5 million?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-05T12:00:00Z",
+    "latestResponseDateTime": "2022-01-06T14:00:00Z",
     "summarizedQuestion": "Is it a large tax-exempt organization or corporation?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUJhc2U2NEVuY29kaW5n"],
+      "documentLink": ["https://example.com/document5"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-05T12:00:00Z",
+      "updatedDateTime": "2022-01-06T14:00:00Z"
     }
   },
   {
     "question": "Is the individual a director, executive officer, or general partner of the company selling the securities, or any director, executive officer, or general partner of a general partner of that company?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-06T12:00:00Z",
+    "latestResponseDateTime": "2022-01-07T14:00:00Z",
     "summarizedQuestion": "Is the individual an officer or director of the selling company?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUVuY29kZWRBc1RleHQ="],
+      "documentLink": ["https://example.com/document6"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-06T12:00:00Z",
+      "updatedDateTime": "2022-01-07T14:00:00Z"
     }
   },
   {
     "question": "Is it an enterprise in which all the equity owners are accredited investors?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-07T12:00:00Z",
+    "latestResponseDateTime": "2022-01-08T14:00:00Z",
     "summarizedQuestion": "Are all equity owners accredited investors?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUVuY29kZWRJbmZv"],
+      "documentLink": ["https://example.com/document7"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-07T12:00:00Z",
+      "updatedDateTime": "2022-01-08T14:00:00Z"
     }
   },
   {
     "question": "Is the individual's net worth or joint net worth with a spouse or spousal equivalent at least $1 million, not including the value of his or her primary residence?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-08T12:00:00Z",
+    "latestResponseDateTime": "2022-01-09T14:00:00Z",
     "summarizedQuestion": "Is the individual's net worth over $1 million?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUJhc2U2NE5vdGVz"],
+      "documentLink": ["https://example.com/document8"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-08T12:00:00Z",
+      "updatedDateTime": "2022-01-09T14:00:00Z"
     }
   },
   {
     "question": "Does the individual have income exceeding $200,000 in each of the two most recent calendar years or joint income with a spouse or spousal equivalent exceeding $300,000 for those years and a reasonable expectation of the same income level in the current year?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-09T12:00:00Z",
+    "latestResponseDateTime": "2022-01-10T14:00:00Z",
     "summarizedQuestion": "Does the individual have high income?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUFkZGl0aW9uYWxJbmZv"],
+      "documentLink": ["https://example.com/document9"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-09T12:00:00Z",
+      "updatedDateTime": "2022-01-10T14:00:00Z"
     }
   },
   {
     "question": "Is it a trust with assets exceeding $5 million, not formed only to acquire the securities offered, and whose purchases are directed by a person who meets the legal standard of having sufficient knowledge and experience in financial and business matters to be capable of evaluating the merits and risks of the prospective investment?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-10T12:00:00Z",
+    "latestResponseDateTime": "2022-01-11T14:00:00Z",
     "summarizedQuestion": "Is it a knowledgeable trust with assets over $5 million?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUV4cGxhbmF0b3J5Tm90ZXM="],
+      "documentLink": ["https://example.com/document10"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-10T12:00:00Z",
+      "updatedDateTime": "2022-01-11T14:00:00Z"
     }
   },
   {
     "question": "Is it an entity of a type not otherwise qualifying as accredited that owns investments in excess of $5 million?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-11T12:00:00Z",
+    "latestResponseDateTime": "2022-01-12T14:00:00Z",
     "summarizedQuestion": "Is it a non-traditional entity with over $5 million in investments?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZURvY3VtZW50YXRpb24="],
+      "documentLink": ["https://example.com/document11"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-11T12:00:00Z",
+      "updatedDateTime": "2022-01-12T14:00:00Z"
     }
   },
   {
     "question": "Is the individual holding in good standing any of the general securities representative license (Series 7), the investment adviser representative license (Series 65), or the private securities offerings representative license (Series 82)?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-12T12:00:00Z",
+    "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual licensed in securities?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
+      "documentLink": ["https://example.com/document12"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-12T12:00:00Z",
+      "updatedDateTime": "2022-01-13T14:00:00Z"
     }
   },
   {
     "question": "Is the individual a knowledgeable employee, as defined in rule 3c-5(a)(4) under the Investment Company Act, of the issuer of securities where that issuer is a 3(c)(1) or 3(c)(7) private fund?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-12T12:00:00Z",
+    "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is the individual a knowledgeable employee of a private fund issuer?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
+      "documentLink": ["https://example.com/document13"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-12T12:00:00Z",
+      "updatedDateTime": "2022-01-13T14:00:00Z"
     }
   },
   {
     "question": "Is it a family office and its family clients if the family office has assets under management in excess of $5 million and whose prospective investments are directed by a person who has such knowledge and experience in financial and business matters that such family office is capable of evaluating the merits and risks of the prospective investment?",
     "response": true,
-    "originalResponseDate": null,
-    "latestResponseDate": null,
+    "originalResponseDateTime": "2022-01-12T12:00:00Z",
+    "latestResponseDateTime": "2022-01-13T14:00:00Z",
     "summarizedQuestion": "Is it a qualified family office?",
     "additionalDetails": {
-      "base64EncodedDocument": null,
-      "documentLink": null,
-      "freeText": "relevant free text \n should be used to indicate a new line",
-      "createdDate": null,
-      "updatedDate": null
+      "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
+      "documentLink": ["https://example.com/document14"],
+      "freeText": "Any additional text can be added here. Use a \n for a new line",
+      "createdDateTime": "2022-01-12T12:00:00Z",
+      "updatedDateTime": "2022-01-13T14:00:00Z"
     }
   }
 ]

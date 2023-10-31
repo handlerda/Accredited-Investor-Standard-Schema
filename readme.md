@@ -43,19 +43,27 @@ A sample json object of the schema is shown below. The entire sample json format
 
 ```json
 {
-  "question": "Is the individual a knowledgeable employee, as defined in rule 3c-5(a)(4) under the Investment Company Act, of the issuer of securities where that issuer is a 3(c)(1) or 3(c)(7) private fund?",
+  "question": "Is it a family office and its family clients if the family office has assets under management in excess of $5 million and whose prospective investments are directed by a person who has such knowledge and experience in financial and business matters that such family office is capable of evaluating the merits and risks of the prospective investment?",
   "response": true,
-  "originalResponseDate": null,
-  "latestResponseDate": null,
-  "summarizedQuestion": "Is the individual a knowledgeable employee of a private fund issuer?",
+  "originalResponseDateTime": "2022-01-12T12:00:00Z",
+  "latestResponseDateTime": "2022-01-13T14:00:00Z",
+  "summarizedQuestion": "Is it a qualified family office?",
   "additionalDetails": {
-    "base64EncodedDocument": null,
-    "documentLink": null,
-    "freeText": "relevant free text \n should be used to indicate a new line",
-    "createdDate": null,
-    "updatedDate": null
+    "base64EncodedDocument": ["U29tZUxpY2Vuc2VEb2N1bWVudA=="],
+    "documentLink": ["https://example.com/document14"],
+    "freeText": "Any additional text can be added here. Use a \n for a new line",
+    "createdDateTime": "2022-01-12T12:00:00Z",
+    "updatedDateTime": "2022-01-13T14:00:00Z"
   }
 }
 ```
 
-**Note on Complexity and Additional Details**: The provided JSON structure can capture intricate details regarding the qualifications of an individual in the context of § 230.501. Given the complexity of such determinations, the "additionalDetails" section is crucial. It offers the capability to embed further related information. For instance, the "base64EncodedDocument" can be used to store encoded versions of relevant documents, while "documentLink" can point to a specific location in a document repository system. This ensures that all pertinent data, including primary documents or references, can be accessed or stored within a single, organized structure. Given the complexity of these questions supporting context and documents are nearly always required.
+**Note on Complexity and Additional Details:**
+The provided JSON structure can capture intricate details about an individual's qualifications under § 230.501. Given the nuanced nature of such determinations, the `"additionalDetails"` section is vital. This section allows for the embedding of supplementary information.
+
+For example:
+
+- `"base64EncodedDocument"` can store encoded versions of pertinent documents.
+- `"documentLink"` can direct to a specific location within a document repository system.
+
+Both of these elements are arrays, enabling investors to have multiple supporting documents. It's essential that the order of the array corresponds with the intended reading sequence of the documents. This approach guarantees that all relevant data, including primary documents or references, is organized and accessible within one comprehensive structure. Due to the intricate nature of these determinations, supporting context and documents are almost always necessary.
