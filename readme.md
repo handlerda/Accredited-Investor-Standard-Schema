@@ -70,7 +70,6 @@ A sample json object of the schema is shown below. The entire sample json format
 ```
 
 **Note on Complexity and Additional Details:**
-The provided JSON structure can capture intricate details about an individual's qualifications under § 230.501. Given the nuanced nature of such determinations, the `"additionalDetails"` section is vital. This section allows for the embedding of supplementary information.
 
 For example:
 
@@ -78,3 +77,21 @@ For example:
 - `"documentLink"` can direct to a specific location within a document repository system.
 
 Both of these elements are arrays of objects, enabling investors to have multiple supporting documents with unique file types. It's essential that the order of the array corresponds with the intended reading sequence of the documents. This approach guarantees that all relevant data, including primary documents or references, is organized and accessible within one comprehensive structure. Due to the intricate nature of these determinations, supporting context and documents are almost always necessary.
+
+### Contribution
+
+**We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:**
+
+- Reporting a schema change
+- Discussing the current state of the code
+- Becoming a comaintainer
+- Something else
+
+**We Develop with Github**
+
+We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
+
+1. Fork the repo and create your branch from `master`.
+2. If you've changed Schema, update the `readme.md`.
+3. Make sure your code lints.
+4. Issue your pull request!
