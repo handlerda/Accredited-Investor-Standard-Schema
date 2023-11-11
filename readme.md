@@ -82,9 +82,9 @@ Both of these elements are arrays of objects, enabling investors to have multipl
 
 **We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:**
 
-- Reporting a schema change
-- Discussing the current state of the code
-- Becoming a comaintainer
+- Reporting a schema change.
+- Discussing the current state of the code.
+- Becoming a co-maintainer.
 - Something else
 
 **We Develop with Github**
@@ -92,6 +92,6 @@ Both of these elements are arrays of objects, enabling investors to have multipl
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
 1. Fork the repo and create your branch from `master`.
-2. If you've changed Schema, update the `readme.md`.
+2. If you've changed the schema, update the `readme.md` accordingly.
 3. Make sure your code lints.
 4. Issue your pull request!
